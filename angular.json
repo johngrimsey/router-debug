@@ -2,7 +2,6 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "router-debug": "apps/router-debug",
-    "router-debug-e2e": "apps/router-debug-e2e"
+    "router-debug": "apps/router-debug"
   }
 }

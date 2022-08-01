@@ -1,1 +1,9 @@
-<router-debug-nx-welcome></router-debug-nx-welcome>
+<h1>AppComponent</h1>
+
+<ul>
+  <li><a routerLink="/">Home</a></li>
+  <li><a [routerLink]="['', { outlets: { modal: ['modal', 'lazy'] } }]">Open modal</a></li>
+</ul>
+
+<router-outlet></router-outlet>
+<router-outlet name="modal"></router-outlet>

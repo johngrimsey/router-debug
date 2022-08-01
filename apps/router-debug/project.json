@@ -13,10 +13,7 @@
         "polyfills": "apps/router-debug/src/polyfills.ts",
         "tsConfig": "apps/router-debug/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": [
-          "apps/router-debug/src/favicon.ico",
-          "apps/router-debug/src/assets"
-        ],
+        "assets": ["apps/router-debug/src/favicon.ico", "apps/router-debug/src/assets"],
         "styles": ["apps/router-debug/src/styles.scss"],
         "scripts": []
       },
@@ -74,10 +71,7 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "apps/router-debug/**/*.ts",
-          "apps/router-debug/**/*.html"
-        ]
+        "lintFilePatterns": ["apps/router-debug/**/*.ts", "apps/router-debug/**/*.html"]
       }
     },
     "test": {

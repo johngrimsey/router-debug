@@ -1,10 +1,8 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'router-debug-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  selector: "router-debug-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"],
 })
-export class AppComponent {
-  title = 'router-debug';
-}
+export class AppComponent {}
