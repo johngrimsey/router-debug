@@ -1,8 +1,9 @@
 # Router debug
 
+      npm start
+
 Please check the app's routing setup.
 
-I _swear_ this used to work in Angular 13.2.2
 
 ### Expected behaviour:
 Clicking 'Open modal' should open dialog and it should contain the text "Holy hell it works" (from `ModalFeatureComponent`)
